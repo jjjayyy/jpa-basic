@@ -19,7 +19,7 @@ public class JpaMain {
 //            Member member = new Member();
 //            member.setId(2L);
 //            member.setName("HelloB");
-//              em.persist(member);
+//            em.persist(member);
 
 //            Member findMember = em.find(Member.class, 1L);
 //            findMember.setName("HelloJPA");
