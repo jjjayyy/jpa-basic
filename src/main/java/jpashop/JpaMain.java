@@ -1,4 +1,4 @@
-package hellojpa;
+package jpashop;
 
 import javax.persistence.EntityManager;
 import javax.persistence.EntityManagerFactory;
@@ -15,21 +15,6 @@ public class JpaMain {
         tx.begin();
 
         try {
-//            Member member = new Member();
-//            member.setId(2L);
-//            member.setName("HelloB");
-//            em.persist(member);
-
-//            Member findMember = em.find(Member.class, 1L);
-//            findMember.setName("HelloJPA");
-
-//            List<Member> result = em.createQuery("select m from Member as m", Member.class)
-//                    .setFirstResult(1)
-//                    .setMaxResults(10)
-//                    .getResultList();
-//            for (Member member : result) {
-//                System.out.println("member.name = " + member.getName());
-//            }
 
             tx.commit();
         } catch (Exception e) {
